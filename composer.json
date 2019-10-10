@@ -1,0 +1,26 @@
+{
+    "name": "canvass/canvass-paint-blade",
+    "description": "A form rendering library using Laravel's Blade",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Kelly",
+            "email": "puritandesigns@gmail.com"
+        }
+    ],
+    "require": {
+        "canvass/canvass-paint": "^0.2"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CanvassPaint\\Blade\\": "src/CanvassPaint/Blade/"
+        }
+    }
+}
