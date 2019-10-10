@@ -16,11 +16,20 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
-        "phpunit/phpunit": "^8.3"
+        "phpunit/phpunit": "^8.3",
+        "illuminate/support": "^6.2",
+        "laravel/framework": "^6.2"
     },
     "autoload": {
         "psr-4": {
             "CanvassPaint\\Blade\\": "src/CanvassPaint/Blade/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CanvassPaint\\Blade\\CanvassPaintServiceProvider"
+            ]
         }
     }
 }
