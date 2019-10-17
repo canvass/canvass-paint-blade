@@ -3,7 +3,7 @@
 >
     @csrf
 
-    {{ $introduction ?? '' }}
+    {!! $introduction ?? '' !!}
 
     <p class="intro-required-help" aria-hidden="true">
         Fields marked with * are required.
