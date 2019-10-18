@@ -1,4 +1,4 @@
-<fieldset id="{{ $field['identifier'] }}" class="{{ $field['classes'] ?? '' }}">
+<fieldset id="{{ $field['identifier'] }}" class="{{ $field['wrap_classes'] ?? '' }}">
     <legend>{{ $field['label'] }}</legend>
 
     @include('canvass_paint::help_text/help_text', compact('identifier','help_text'))

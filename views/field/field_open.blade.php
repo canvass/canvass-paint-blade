@@ -1,7 +1,6 @@
 <div id="{{ $field['identifier'] }}_wrap"
      class="{{ $field['wrap_classes'] ?? config(
-        'canvass.defaults.field.wrap_classes',
-        'field-wrap'
+        'canvass.defaults.field.wrap_classes', ''
      ) }}"
 >
 

@@ -1,4 +1,4 @@
-<div id="{{ $field['identifier'] }}" class="{{ $field['classes'] ?? '' }}">
+<div id="{{ $field['identifier'] }}" class="{{ $field['wrap_classes'] ?? '' }}">
     {{ $field['help_text'] }}
 
 @foreach($field['children'] as $child)
