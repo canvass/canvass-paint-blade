@@ -6,7 +6,7 @@
            required="required"
        @endif
        @if($field->hasAttribute('placeholder'))
-           placeholder="{{ $field->getAattribute('placeholder') }}"
+           placeholder="{{ $field->getAttribute('placeholder') }}"
        @endif
        @if($field->hasAttribute('rows'))
            rows="{{ $field->getAttribute('rows') }}"
