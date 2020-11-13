@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f026b8bfd0186c172cc77fbfa997583",
+    "content-hash": "09942e6e805694dcb70444784e059075",
     "packages": [
         {
             "name": "canvass/canvass-core",
-            "version": "v1.00.00",
+            "version": "v1.01.00",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canvass/canvass-core.git",
-                "reference": "c7e6c1a42626095eb62aae07aa5c62614aa820d3"
+                "reference": "fefee8ef62f8c41c0710d4e932d51ee90f2656ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canvass/canvass-core/zipball/c7e6c1a42626095eb62aae07aa5c62614aa820d3",
-                "reference": "c7e6c1a42626095eb62aae07aa5c62614aa820d3",
+                "url": "https://api.github.com/repos/canvass/canvass-core/zipball/fefee8ef62f8c41c0710d4e932d51ee90f2656ee",
+                "reference": "fefee8ef62f8c41c0710d4e932d51ee90f2656ee",
                 "shasum": ""
             },
             "require": {
@@ -49,27 +49,28 @@
             "description": "A form building library",
             "support": {
                 "issues": "https://github.com/canvass/canvass-core/issues",
-                "source": "https://github.com/canvass/canvass-core/tree/v1.00.00"
+                "source": "https://github.com/canvass/canvass-core/tree/v1.01.00"
             },
-            "time": "2020-11-11T15:13:19+00:00"
+            "time": "2020-11-13T17:54:45+00:00"
         },
         {
             "name": "canvass/canvass-paint",
-            "version": "v1.00.00",
+            "version": "v1.01.00",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canvass/canvass-paint.git",
-                "reference": "02f9e27f28a0766d6304f997348796c294fc4907"
+                "reference": "f285c4be94573dd974cdef212c5e67945ac7107b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canvass/canvass-paint/zipball/02f9e27f28a0766d6304f997348796c294fc4907",
-                "reference": "02f9e27f28a0766d6304f997348796c294fc4907",
+                "url": "https://api.github.com/repos/canvass/canvass-paint/zipball/f285c4be94573dd974cdef212c5e67945ac7107b",
+                "reference": "f285c4be94573dd974cdef212c5e67945ac7107b",
                 "shasum": ""
             },
             "require": {
-                "canvass/canvass-core": "1.00.*",
-                "ext-json": "*"
+                "canvass/canvass-core": "^1.01",
+                "ext-json": "*",
+                "ext-pdo": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.3",
@@ -94,9 +95,9 @@
             "description": "A form rendering library",
             "support": {
                 "issues": "https://github.com/canvass/canvass-paint/issues",
-                "source": "https://github.com/canvass/canvass-paint/tree/v1.00.00"
+                "source": "https://github.com/canvass/canvass-paint/tree/v1.01.00"
             },
-            "time": "2020-11-11T17:32:23+00:00"
+            "time": "2020-11-13T18:02:30+00:00"
         },
         {
             "name": "promo-code/web-anvil",
@@ -1008,16 +1009,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/776f831124e9c62e1a2c601ecc52e776d8bb7220",
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220",
                 "shasum": ""
             },
             "require": {
@@ -1054,7 +1055,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.x"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.10.2"
             },
             "funding": [
                 {
@@ -1062,7 +1063,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-29T13:22:24+00:00"
+            "time": "2020-11-13T09:40:50+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -2299,12 +2300,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e440567339d5fe93d9525e377c5e686b0b08bcca"
+                "reference": "0011d773ec873fbf3cde730da5655ff74eddc9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e440567339d5fe93d9525e377c5e686b0b08bcca",
-                "reference": "e440567339d5fe93d9525e377c5e686b0b08bcca",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0011d773ec873fbf3cde730da5655ff74eddc9f8",
+                "reference": "0011d773ec873fbf3cde730da5655ff74eddc9f8",
                 "shasum": ""
             },
             "conflict": {
@@ -2439,6 +2440,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "pimcore/pimcore": "<6.3",
+                "pocketmine/pocketmine-mp": "<3.15.4",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
                 "prestashop/contactform": ">1.0.1,<4.3",
                 "prestashop/gamification": "<2.3.2",
@@ -2457,7 +2459,7 @@
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/core": "<=6.3.2",
                 "shopware/platform": "<=6.3.2",
-                "shopware/shopware": "<5.3.7",
+                "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
                 "silverstripe/cms": "<4.3.6|>=4.4,<4.4.4",
@@ -2606,7 +2608,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-07T16:07:08+00:00"
+            "time": "2020-11-13T16:02:31+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

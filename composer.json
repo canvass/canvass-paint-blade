@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "canvass/canvass-paint": "1.00.*"
+        "canvass/canvass-paint": "^1.01"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
