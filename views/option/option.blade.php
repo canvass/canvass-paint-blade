@@ -1,3 +1,3 @@
 <option value="{{ $child['value'] ?? $index }}">
-    {{ $child['label'] }}
+    {{ $child['label'] ?? $index }}
 </option>
