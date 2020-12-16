@@ -13,7 +13,12 @@
         @includeIf("canvass_paint::{$field['general_type']}/{$field['general_type']}")
     @endforeach
 
-    <button class="{{ $button_classes ?? '' }}" type="submit">
-        {{ $submit_text ?? 'Submit' }}
-    </button>
+    <div class="{{ ($button_classes ?? false) ?
+        'wrap-submit-' . str_replace(' ', ' wrap-submit-', trim($button_classes)) :
+        'wrap-submit'
+    }}">
+        <button class="{{ $button_classes ?? '' }}" type="submit">
+            {{ $submit_text ?? 'Submit' }}
+        </button>
+    </div>
 </form>
